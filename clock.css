@@ -1,0 +1,23 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+.cointener {
+    background-color: #000;
+    position: relative;
+    height: 100vh;
+}
+
+#clock {
+    font-size: 6em;
+    color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#day {
+    text-align: center;
+}
